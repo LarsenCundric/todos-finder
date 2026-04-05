@@ -7,13 +7,13 @@ Find every forgotten TODO in your codebase — who wrote it, how old it is, and 
 ## Install
 
 ```bash
-npm install -g todos-cli
+npm install -g todos-finder
 ```
 
 Or run it directly:
 
 ```bash
-npx todos-cli
+npx todos-finder
 ```
 
 ## Usage

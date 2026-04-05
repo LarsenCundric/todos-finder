@@ -80,7 +80,7 @@ export async function createGithubIssues(todos) {
       todo.contextAfter ? `${todo.line + 1} | ${todo.contextAfter}` : '',
       '```',
       '',
-      '_Created by [todos-cli](https://github.com/larsencundric/todos-cli)_',
+      '_Created by [todos-finder](https://github.com/larsencundric/todos-finder)_',
     ].filter(Boolean).join('\n');
 
     const labels = [];
